@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    line-height: 1.5;
+    font-size: 16px;
+}
+.hero-body {
+    text-align: center;
+}
+.container {
+    background-color: #3b5998;
+    text-align: center;
+}
+.page {
+    display: inline-block;
+    font-size: 26px;
+    margin: 0 10px;
+}
+h1 {
+    font-size: 32px;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 28px;
+    margin: 50px auto;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #99d8ca;
+    border: 20px solid #5873e2;
+    display: inline-block;
+    margin: 0 auto;
+    outline: 10px solid #0d1430;
+    box-shadow: 0 0 0 30px #90ffa9;
+}
+.parent {
+    margin: 40px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #99d8ca;
+    vertical-align: middle;
+}
+.child {
+    display: inline-block;
+    margin-left: 10px;
+}
+.padding {
+    background-color: #0d1430;
+}
+.border {
+    background-color: #90ffa9;
+}
+.outline {
+    background-color: #5873e2;
+}
+hr {
+    margin: 10px auto;
+    width: 500px;
+    border: 0;
+    border-bottom: 2px dotted black;
+}
+.hero-box {
+    width: 660px;
+    border: 2px solid #3b5998;
+    margin: 30px auto;
+    font-size: 0;
+}
+.child-box {
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: #5873e2;
+}
+.primary {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+ /* Blog */
+img {
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+}
